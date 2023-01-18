@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="src/styles/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <nav>
+      <div class="container">
+        <a href="#" class="logo"
+          ><img src="src/img/header/logo.svg" alt="logo"
+        /></a>
+        <ul class="navbar__menu">
+          <li><a href="#" class="navbar__link">главная</a></li>
+          <li><a href="#" class="navbar__link">услуги</a></li>
+          <li><a href="#" class="navbar__link">галерея</a></li>
+          <li><a href="#" class="navbar__link">цены</a></li>
+          <li><a href="#" class="navbar__link">контакты</a></li>
+        </ul>
+        <div class="navbar__contacts">
+          <div class="navbar__dental">
+            <a href="#" class="navbar-dental__link navbar__link"
+              ><img src="src/img/icons/map.svg" alt="map" />ул.Кулибина, 3Б</a
+            >
+            <a href="#" class="navbar-dental__link navbar__link"
+              ><img src="src/img/icons/call.svg" alt="call" />072 174 15 80</a
+            >
+          </div>
+          <div class="navbar__dental">
+            <a href="#" class="navbar-dental__link navbar__link"
+              ><img src="src/img/icons/map.svg" alt="map" />кв. Солнечный, 26</a
+            >
+            <a href="tel:4124124124" href="tel:2132132" class="navbar-dental__link navbar__link"
+              ><img src="src/img/icons/call.svg" alt="call" />072 (545) 45
+              454</a
+            >
+          </div>
+        </div>
+        <div class="burger-btn">
+          <span></span>
+        </div>
+      </div>
+    </nav>
+    <header>
+      <div class="container">
+        <div class="header__title">
+          <h4>Сеть стоматологических клиник</h4>
+          <h1>Успех</h1>
+          <h2>Красивая улыбка - залог успеха!</h2>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="ad">
+        <div class="container">
+          <div class="swiper ad__swiper">
+            <div class="swiper__btns">
+              <div class="swiper-button-prev">
+                <svg
+                  width="73"
+                  height="23"
+                  viewBox="0 0 73 23"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M72.0607 12.6671C72.6464 12.0813 72.6464 11.1316 72.0607 10.5458L62.5147 0.999844C61.9289 0.414057 60.9792 0.414057 60.3934 0.999844C59.8076 1.58563 59.8076 2.53538 60.3934 3.12116L68.8787 11.6064L60.3934 20.0917C59.8076 20.6775 59.8076 21.6273 60.3934 22.213C60.9792 22.7988 61.9289 22.7988 62.5147 22.213L72.0607 12.6671ZM0 13.1064H71V10.1064H0V13.1064Z"
+                    fill="#CBAB58"
+                  />
+                </svg>
+              </div>
+              <div class="swiper-button-next">
+                <svg
+                  width="73"
+                  height="23"
+                  viewBox="0 0 73 23"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M72.0607 12.6671C72.6464 12.0813 72.6464 11.1316 72.0607 10.5458L62.5147 0.999844C61.9289 0.414057 60.9792 0.414057 60.3934 0.999844C59.8076 1.58563 59.8076 2.53538 60.3934 3.12116L68.8787 11.6064L60.3934 20.0917C59.8076 20.6775 59.8076 21.6273 60.3934 22.213C60.9792 22.7988 61.9289 22.7988 62.5147 22.213L72.0607 12.6671ZM0 13.1064H71V10.1064H0V13.1064Z"
+                    fill="#CBAB58"
+                  />
+                </svg>
+              </div>
+            </div>
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                Slide 1 Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Maxime explicabo nisi temporibus expedita dolor recusandae,
+                incidunt vel quos velit quod sequi ex nostrum deserunt cum
+                soluta eius consectetur. Sed, dicta!
+              </div>
+              <div class="swiper-slide">Slide 2</div>
+              <div class="swiper-slide">Slide 3</div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </section>
+      <section class="benefits">
+        <div class="container">
+          <div class="benefits__wrapper">
+            <div class="benefits__item">
+              <p class="benefits__number">
+                <span class="number years element-animation" data-num="15"
+                  >0</span
+                >+
+              </p>
+              <p>Лет помогаем пациентам</p>
+            </div>
+            <div class="benefits__item">
+              <p class="benefits__number">
+                <span
+                  class="number number-of-clients element-animation"
+                  data-num="10000"
+                  >0</span
+                >+
+              </p>
+              <p>Довольных пациентов</p>
+            </div>
+            <div class="benefits__item">
+              <p>Собственная лаборатория</p>
+              <a href="#">(подробнее)</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="services">
+        <div class="container">
+          <div class="section__title">
+            <h3>Услуги</h3>
+          </div>
+          <div class="services__wrapper">
+            <div class="services__item">
+              <img src="src/img/services/implantation.svg" alt="service" />
+              <p>Имплантология</p>
+            </div>
+            <div class="services__item">
+              <img src="src/img/services/orthopedia.svg" alt="service" />
+              <p>Протезирование</p>
+            </div>
+            <div class="services__item">
+              <img src="src/img/services/surgery.svg" alt="service" />
+              <p>Хирургия</p>
+            </div>
+            <div class="services__item">
+              <img src="src/img/services/aesthetic.svg" alt="service" />
+              <p>Эстетическая реставрация</p>
+            </div>
+            <div class="services__item">
+              <img src="src/img/services/root.svg" alt="service" />
+              <p>Лечение каналов</p>
+            </div>
+            <div class="services__item">
+              <img src="src/img/services/hygiene.svg" alt="service" />
+              <p>Профессиональная гигиена</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="works">
+        <div class="container">
+          <div class="section__title">
+            <h3>Какие задачи мы решаем</h3>
+          </div>
+          <div class="swiper work__swiper">
+            <div class="swiper__btns">
+              <div class="swiper-button-prev">
+                <svg
+                  width="73"
+                  height="23"
+                  viewBox="0 0 73 23"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M72.0607 12.6671C72.6464 12.0813 72.6464 11.1316 72.0607 10.5458L62.5147 0.999844C61.9289 0.414057 60.9792 0.414057 60.3934 0.999844C59.8076 1.58563 59.8076 2.53538 60.3934 3.12116L68.8787 11.6064L60.3934 20.0917C59.8076 20.6775 59.8076 21.6273 60.3934 22.213C60.9792 22.7988 61.9289 22.7988 62.5147 22.213L72.0607 12.6671ZM0 13.1064H71V10.1064H0V13.1064Z"
+                    fill="#CBAB58"
+                  />
+                </svg>
+              </div>
+              <div class="swiper-button-next">
+                <svg
+                  width="73"
+                  height="23"
+                  viewBox="0 0 73 23"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M72.0607 12.6671C72.6464 12.0813 72.6464 11.1316 72.0607 10.5458L62.5147 0.999844C61.9289 0.414057 60.9792 0.414057 60.3934 0.999844C59.8076 1.58563 59.8076 2.53538 60.3934 3.12116L68.8787 11.6064L60.3934 20.0917C59.8076 20.6775 59.8076 21.6273 60.3934 22.213C60.9792 22.7988 61.9289 22.7988 62.5147 22.213L72.0607 12.6671ZM0 13.1064H71V10.1064H0V13.1064Z"
+                    fill="#CBAB58"
+                  />
+                </svg>
+              </div>
+            </div>
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="slide__inner">
+                  <div class="slide__content">
+                    Slide 1 Lorem ipsum dolor sit amet consectetur adipisicing
+                    elit. Maxime explicabo nisi temporibus expedita dolor
+                    recusandae, incidunt vel quos velit quod sequi ex nostrum
+                    deserunt cum soluta eius consectetur. Sed, dicta!
+                  </div>
+                  <div class="slide__img"></div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="slide__inner">
+                  <div class="slide__content">
+                    Slide 1 Lorem ipsum dolor sit amet consectetur adipisicing
+                    elit. Maxime explicabo nisi temporibus expedita dolor
+                    recusandae, incidunt vel quos velit quod sequi ex nostrum
+                    deserunt cum soluta eius consectetur. Sed, dicta!
+                  </div>
+                  <div class="slide__img"></div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="slide__inner">
+                  <div class="slide__content">
+                    Slide 1 Lorem ipsum dolor sit amet consectetur adipisicing
+                    elit. Maxime explicabo nisi temporibus expedita dolor
+                    recusandae, incidunt vel quos velit quod sequi ex nostrum
+                    deserunt cum soluta eius consectetur. Sed, dicta!
+                  </div>
+                  <div class="slide__img"></div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </section>
+      <section class="price">
+        <div class="container">
+          <div class="section__title">
+            <h3>Цены</h3>
+          </div>
+          <div class="price__wrapper">
+            <div class="price__btns">
+              <p class="price__btn-item">Терапия</p>
+              <p class="price__btn-item">Протезирование</p>
+              <p class="price__btn-item">Имплантология</p>
+              <p class="price__btn-item">Хирургия</p>
+            </div>
+            <div class="price__contents">
+              <div data-price="therapy" class="price__contents-item">
+                <ul class="price__list">
+                  <li>
+                    <p class="price__name">Lorem, ipsum dolor.</p>
+                    <p class="price__cost">10 000 P</p>
+                  </li>
+                  <li>
+                    <p class="price__name">Lorem, ipsum dolor.</p>
+                    <p class="price__cost">10 000 P</p>
+                  </li>
+                  <li>
+                    <p class="price__name">Lorem, ipsum dolor.</p>
+                    <p class="price__cost">10 000 P</p>
+                  </li>
+                  <li>
+                    <p class="price__name">Lorem, ipsum dolor.</p>
+                    <p class="price__cost">10 000 P</p>
+                  </li>
+                  <li>
+                    <p class="price__name">Lorem, ipsum dolor.</p>
+                    <p class="price__cost">10 000 P</p>
+                  </li>
+                </ul>
+              </div>
+              <div data-price="orthopedia" class="price__contents-item">
+                <ul class="price__list">
+                  <li>
+                    <p class="price__name">Lorem, ipsum dolor.</p>
+                    <p class="price__cost">10 000 P</p>
+                  </li>
+                  <li>
+                    <p class="price__name">Lorem, ipsum dolor.</p>
+                    <p class="price__cost">10 000 P</p>
+                  </li>
+                  <li>
+                    <p class="price__name">Lorem, ipsum dolor.</p>
+                    <p class="price__cost">10 000 P</p>
+                  </li>
+                  <li>
+                    <p class="price__name">Lorem, ipsum dolor.</p>
+                    <p class="price__cost">10 000 P</p>
+                  </li>
+                  <li>
+                    <p class="price__name">Lorem, ipsum dolor.</p>
+                    <p class="price__cost">10 000 P</p>
+                  </li>
+                </ul>
+              </div>
+              <div data-price="implantation" class="price__contents-item">
+                <ul class="price__list">
+                  <li>
+                    <p class="price__name">Lorem, ipsum dolor.</p>
+                    <p class="price__cost">10 000 P</p>
+                  </li>
+                  <li>
+                    <p class="price__name">Lorem, ipsum dolor.</p>
+                    <p class="price__cost">10 000 P</p>
+                  </li>
+                  <li>
+                    <p class="price__name">Lorem, ipsum dolor.</p>
+                    <p class="price__cost">10 000 P</p>
+                  </li>
+                  <li>
+                    <p class="price__name">Lorem, ipsum dolor.</p>
+                    <p class="price__cost">10 000 P</p>
+                  </li>
+                  <li>
+                    <p class="price__name">Lorem, ipsum dolor.</p>
+                    <p class="price__cost">10 000 P</p>
+                  </li>
+                </ul>
+              </div>
+              <div data-price="surgery" class="price__contents-item">
+                <ul class="price__list">
+                  <li>
+                    <p class="price__name">Lorem, ipsum dolor.</p>
+                    <p class="price__cost">10 000 P</p>
+                  </li>
+                  <li>
+                    <p class="price__name">Lorem, ipsum dolor.</p>
+                    <p class="price__cost">10 000 P</p>
+                  </li>
+                  <li>
+                    <p class="price__name">Lorem, ipsum dolor.</p>
+                    <p class="price__cost">10 000 P</p>
+                  </li>
+                  <li>
+                    <p class="price__name">Lorem, ipsum dolor.</p>
+                    <p class="price__cost">10 000 P</p>
+                  </li>
+                  <li>
+                    <p class="price__name">Lorem, ipsum dolor.</p>
+                    <p class="price__cost">10 000 P</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <p class="price__description">
+            *Более детальную информацию про цены Вы можете узнать по телефону
+          </p>
+          <a href="tel: 0728908989, tel: 050235320" class="btn">Позвонить</a>
+        </div>
+      </section>
+      <section class="lab">
+        <div class="container">
+          <div class="section__title">
+            <h3>своя Лаборатория</h3>
+          </div>
+          <div class="lab__wrapper">
+            <img src="src/img/lab/" alt="lab" />
+            <p>
+              собственная лаборатория позволяет нам выполнять ортопедические
+              работы в более короткие сроки и более качественно благодаря тесной
+              связи доктор - зубной техник, а так же возможности присутствия
+              техника на этапе выбора конструкции для лучшего понимания нюансов
+              в каждом клиническом случае
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="contacts">
+        <div class="container">
+          <div class="section__title">
+            <h3>Контакты</h3>
+          </div>
+          <div class="contacts__wrapper">
+            <div class="contacts__filials">
+              <div class="contacts__item">
+                <img src="src/img/contacts/" alt="filial" />
+                <p></p>
+                <a href="#"></a>
+              </div>
+              <div class="contacts__item">
+                <img src="src/img/contacts/" alt="filial" />
+                <p></p>
+                <a href="#"></a>
+              </div>
+            </div>
+            <div style="position:relative;overflow:hidden;"><a href="https://yandex.ru/maps/org/stomatologiya_i_protezirovaniye/214116561434/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">Стоматология и протезирование</a><a href="https://yandex.ru/maps/222/luhansk/category/dental_clinics/184106132/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:14px;">Стоматологическая клиника в Луганске</a><iframe src="https://yandex.ru/map-widget/v1/?ll=39.394052%2C48.574471&mode=poi&poi%5Bpoint%5D=39.392823%2C48.579964&poi%5Buri%5D=ymapsbm1%3A%2F%2Forg%3Foid%3D214116561434&tab=features&z=15.85" width="560" height="400" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe></div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="src/js/main.js"></script>
+  </body>
+</html>
