@@ -153,11 +153,10 @@ nav {
     }
 }
 header {
-    padding-top: 150px;
-    padding-bottom: 150px;
+    padding: 200px 0;
     background: url(../img/header/header.png);
     background-repeat: no-repeat;
-    background-size: 40% 100%;
+    background-size: 500px 100%;
     background-position: right bottom;
     .header__title {
         padding-left: 180px;
@@ -167,8 +166,8 @@ header {
     }
 }
 .ad{
-    background: $white-opacity;
-    padding: 50px 0 150px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0) 100%);
+    padding: 20px 0 ;
 }
 .swiper {
     padding: 50px 0;
@@ -225,11 +224,11 @@ header {
 .benefits {
     background: url(../img/benefits/benefit-bg.png);
     background-color: $white-opacity;
+    margin-top: -50px;
     background-position: left;
     background-size: 300px 105%;
     background-repeat: no-repeat;
-    padding: 25px 0;
-    margin-top: -150px;
+    padding: 50px 0;
     .benefits__wrapper {
         display: flex;
         flex-direction: column;
@@ -493,7 +492,8 @@ header {
         }
     }
     header{
-        padding-top: 220px;
+        padding: 150px 0;
+        background-size: 400px 100%;
         .header__title{
             padding-left: 0;
             h1{
@@ -542,6 +542,10 @@ header {
             flex-basis: 100%;
         }
     }
+    header{
+        padding: 250px 0 150px 0;
+        background-size: 400px 90%;
+    }
     .benefits {
         .benefits__wrapper {
             max-width: 70%;
@@ -564,6 +568,10 @@ header {
 @media screen and (max-width: 767px) {
     .container {
         max-width: 720px;
+    }
+    header{
+        padding: 150px 0 100px ;
+        background-size: 350px 100%;
     }
     nav {
         .burger-btn {
@@ -645,6 +653,11 @@ header {
             grid-template-columns: repeat(2, 1fr);
         }
     }
+    .price{
+        .price__btns{
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
     .works{
         .slide__inner{
 
@@ -680,12 +693,25 @@ header {
     .container {
         max-width: unset;
     }
+    main{
+        gap: 70px;
+    }
     nav {
         .container {
             justify-content: space-between;
         }
         .navbar__contacts {
             display: none;
+        }
+    }
+    header{
+        padding: 100px 0 75px;
+        background-color: $white-opacity;
+        .header__title{
+            text-align: center;
+            h4{
+                font-weight: 400;
+            }
         }
     }
     .benefits {
@@ -699,23 +725,42 @@ header {
     .services {
         .services__wrapper {
             grid-template-columns: repeat(1, 1fr);
+            gap: 20px;
+        }
+    }
+    .price{
+        .price__btns{
+            grid-template-columns: repeat(1, 1fr);
+            gap: 20px;
+        }
+        .price__contents-item{
+            &.price__contents-item--active {
+                padding: 0;
+                margin-top: 25px;
+            }
+        }
+        .price__list{
+            max-width: 100%;
+        }
+        .price__description{
+            max-width: unset;
         }
     }
     .swiper{
+        padding: 25px 0;
+
         .swiper-pagination{
             .swiper-pagination-bullet{
                 height: 3px;
             }
         }
+        .swiper__btns{
+            justify-content: center;
+            margin-bottom: 25px;
+        }
     }
     .works{
-        .swiper{
-            padding: 25px 0;
-            .swiper__btns{
-                justify-content: center;
-                margin-bottom: 25px;
-            }
-        }
+        
         .slide__inner{
             flex-direction: column;
             gap: 20px;
@@ -740,6 +785,7 @@ header {
                 max-width: unset;
                 border-bottom: 1px solid $main-color;
                 padding-bottom: 15px;
+                font-size: 16px;
             }
             img{
                 width: 150px;
