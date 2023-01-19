@@ -20,32 +20,31 @@
   <body>
     <nav>
       <div class="container">
-        <a href="#" class="logo"
+        <a href="#header" class="logo navbar__link"
           ><img src="src/img/header/logo.svg" alt="logo"
         /></a>
         <ul class="navbar__menu">
-          <li><a href="#" class="navbar__link">главная</a></li>
-          <li><a href="#" class="navbar__link">услуги</a></li>
-          <li><a href="#" class="navbar__link">галерея</a></li>
-          <li><a href="#" class="navbar__link">цены</a></li>
-          <li><a href="#" class="navbar__link">контакты</a></li>
+          <li><a href="#header" class="navbar__link">главная</a></li>
+          <li><a href="#services" class="navbar__link">услуги</a></li>
+          <li><a href="#gallery" class="navbar__link">галерея</a></li>
+          <li><a href="#price" class="navbar__link">цены</a></li>
+          <li><a href="#contacts" class="navbar__link">контакты</a></li>
         </ul>
         <div class="navbar__contacts">
           <div class="navbar__dental">
-            <a href="#" class="navbar-dental__link navbar__link"
+            <a href="#contacts" class="navbar-dental__link navbar__link"
               ><img src="src/img/icons/map.svg" alt="map" />ул.Кулибина, 3Б</a
             >
-            <a href="#" class="navbar-dental__link navbar__link"
+            <a href="tel: 0721741580" class="navbar-dental__link "
               ><img src="src/img/icons/call.svg" alt="call" />072 174 15 80</a
             >
           </div>
           <div class="navbar__dental">
-            <a href="#" class="navbar-dental__link navbar__link"
+            <a href="#contacts" class="navbar-dental__link navbar__link"
               ><img src="src/img/icons/map.svg" alt="map" />кв. Солнечный, 26</a
             >
-            <a href="tel:4124124124" href="tel:2132132" class="navbar-dental__link navbar__link"
-              ><img src="src/img/icons/call.svg" alt="call" />072 (545) 45
-              454</a
+            <a href="tel: 0721411819" class="navbar-dental__link"
+              ><img src="src/img/icons/call.svg" alt="call" />072 141 18 19</a
             >
           </div>
         </div>
@@ -54,12 +53,12 @@
         </div>
       </div>
     </nav>
-    <header>
+    <header id="header">
       <div class="container">
         <div class="header__title">
-          <h4>Сеть стоматологических клиник</h4>
-          <h1>Успех</h1>
-          <h2>Красивая улыбка - залог успеха!</h2>
+          <h4 class="element-animation">Сеть стоматологических клиник</h4>
+          <h1 class="element-animation">Успех</h1>
+          <h2 class="element-animation">Красивая улыбка - залог успеха!</h2>
         </div>
       </div>
     </header>
@@ -139,9 +138,9 @@
           </div>
         </div>
       </section>
-      <section class="services">
+      <section class="services" id="services">
         <div class="container">
-          <div class="section__title">
+          <div class="section__title element-animation">
             <h3>Услуги</h3>
           </div>
           <div class="services__wrapper">
@@ -172,9 +171,9 @@
           </div>
         </div>
       </section>
-      <section class="works">
+      <section class="works" id="gallery">
         <div class="container">
-          <div class="section__title">
+          <div class="section__title element-animation">
             <h3>Какие задачи мы решаем</h3>
           </div>
           <div class="swiper work__swiper">
@@ -247,17 +246,17 @@
           </div>
         </div>
       </section>
-      <section class="price">
+      <section class="price" id="price">
         <div class="container">
-          <div class="section__title">
+          <div class="section__title element-animation">
             <h3>Цены</h3>
           </div>
           <div class="price__wrapper">
             <div class="price__btns">
-              <p class="price__btn-item">Терапия</p>
-              <p class="price__btn-item">Протезирование</p>
-              <p class="price__btn-item">Имплантология</p>
-              <p class="price__btn-item">Хирургия</p>
+              <p class="price__btn-item element-animation">Терапия</p>
+              <p class="price__btn-item element-animation">Протезирование</p>
+              <p class="price__btn-item element-animation">Имплантология</p>
+              <p class="price__btn-item element-animation">Хирургия</p>
             </div>
             <div class="price__contents">
               <div data-price="therapy" class="price__contents-item">
@@ -366,7 +365,7 @@
       </section>
       <section class="lab">
         <div class="container">
-          <div class="section__title">
+          <div class="section__title element-animation">
             <h3>своя Лаборатория</h3>
           </div>
           <div class="lab__wrapper">
@@ -381,9 +380,9 @@
           </div>
         </div>
       </section>
-      <section class="contacts">
+      <section class="contacts" id="contacts">
         <div class="container">
-          <div class="section__title">
+          <div class="section__title element-animation">
             <h3>Контакты</h3>
           </div>
           <div class="contacts__wrapper">
@@ -405,6 +404,6 @@
       </section>
     </main>
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
-    <script src="src/js/main.js"></script>
+    <script src="src/js/script.js"></script>
   </body>
 </html>

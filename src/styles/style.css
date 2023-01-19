@@ -36,17 +36,26 @@ h1 {
   text-transform: uppercase;
   color: #7a0406;
 }
+h1.element-animation.element-show {
+  transition-delay: 0.5s;
+}
 
 h2 {
   font-size: 24px;
   line-height: 129.9%;
   font-weight: 400;
 }
+h2.element-animation.element-show {
+  transition-delay: 0.9s;
+}
 
 h4 {
   font-weight: 300;
   font-size: 22px;
   line-height: 129.9%;
+}
+h4.element-animation.element-show {
+  transition-delay: 0.1s;
 }
 
 .section__title {
@@ -68,6 +77,7 @@ h4 {
 
 .element-animation {
   opacity: 0;
+  transform: translate(0, 50px);
 }
 
 .element-animation.element-show {
@@ -319,6 +329,30 @@ header .header__title h1 {
 }
 .price .price__btn-item:hover, .price .price__btn-item.price__btn-item--active {
   color: #ab803f;
+}
+.price .price__btn-item:nth-child(1).element-animation {
+  transform: translate(0);
+}
+.price .price__btn-item:nth-child(1).element-animation.element-show {
+  transition-delay: 0.1s;
+}
+.price .price__btn-item:nth-child(2).element-animation {
+  transform: translate(0);
+}
+.price .price__btn-item:nth-child(2).element-animation.element-show {
+  transition-delay: 0.3s;
+}
+.price .price__btn-item:nth-child(3).element-animation {
+  transform: translate(0);
+}
+.price .price__btn-item:nth-child(3).element-animation.element-show {
+  transition-delay: 0.5s;
+}
+.price .price__btn-item:nth-child(4).element-animation {
+  transform: translate(0);
+}
+.price .price__btn-item:nth-child(4).element-animation.element-show {
+  transition-delay: 0.7s;
 }
 .price .price__contents {
   overflow: hidden;
@@ -682,9 +716,18 @@ header .header__title h1 {
     grid-template-columns: repeat(1, 1fr);
     gap: 20px;
   }
+  .services .services__item {
+    gap: 15px;
+  }
   .price .price__btns {
     grid-template-columns: repeat(1, 1fr);
     gap: 20px;
+  }
+  .price .price__btn-item {
+    font-size: 18px;
+  }
+  .price .price__list li {
+    font-size: 16px;
   }
   .price .price__contents-item.price__contents-item--active {
     padding: 0;
