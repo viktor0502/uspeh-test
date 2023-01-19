@@ -35,7 +35,7 @@
             <a href="#contacts" class="navbar-dental__link navbar__link"
               ><img src="src/img/icons/map.svg" alt="map" />ул.Кулибина, 3Б</a
             >
-            <a href="tel: 0721741580" class="navbar-dental__link "
+            <a href="tel: 0721741580" class="navbar-dental__link"
               ><img src="src/img/icons/call.svg" alt="call" />072 174 15 80</a
             >
           </div>
@@ -97,12 +97,7 @@
               </div>
             </div>
             <div class="swiper-wrapper">
-              <div class="swiper-slide">
-                Slide 1 Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Maxime explicabo nisi temporibus expedita dolor recusandae,
-                incidunt vel quos velit quod sequi ex nostrum deserunt cum
-                soluta eius consectetur. Sed, dicta!
-              </div>
+              <div class="swiper-slide">Slide 1</div>
               <div class="swiper-slide">Slide 2</div>
               <div class="swiper-slide">Slide 3</div>
             </div>
@@ -133,7 +128,7 @@
             </div>
             <div class="benefits__item">
               <p>Собственная лаборатория</p>
-              <a href="#">(подробнее)</a>
+              <a href="#lab" class="navbar__link">(подробнее)</a>
             </div>
           </div>
         </div>
@@ -363,7 +358,7 @@
           <a href="tel: 0728908989, tel: 050235320" class="btn">Позвонить</a>
         </div>
       </section>
-      <section class="lab">
+      <section class="lab" id="lab">
         <div class="container">
           <div class="section__title element-animation">
             <h3>своя Лаборатория</h3>
@@ -386,19 +381,89 @@
             <h3>Контакты</h3>
           </div>
           <div class="contacts__wrapper">
-            <div class="contacts__filials">
+            <div class="contacts__branches">
               <div class="contacts__item">
-                <img src="src/img/contacts/" alt="filial" />
-                <p></p>
-                <a href="#"></a>
+                <img
+                  class="branch__photo"
+                  src="src/img/contacts/"
+                  alt="filial"
+                />
+                <div class="contacts-item__address">
+                  <p>
+                    <img src="src/img/icons/map.svg" alt="map" />ул.Кулибина, 3Б
+                  </p>
+                  <a href="tel: 0721741580"
+                    ><img src="src/img/icons/call.svg" alt="call" />072 174 15
+                    80</a
+                  >
+                </div>
               </div>
               <div class="contacts__item">
-                <img src="src/img/contacts/" alt="filial" />
-                <p></p>
-                <a href="#"></a>
+                <img
+                  class="branch__photo"
+                  src="src/img/contacts/"
+                  alt="filial"
+                />
+                <div class="contacts-item__address">
+                  <p>
+                    <img src="src/img/icons/map.svg" alt="map" />кв. Солнечный,
+                    26
+                  </p>
+                  <a href="tel: 0721411819"
+                    ><img src="src/img/icons/call.svg" alt="call" />072 141 18
+                    19</a
+                  >
+                </div>
               </div>
             </div>
-            <div style="position:relative;overflow:hidden;"><a href="https://yandex.ru/maps/org/stomatologiya_i_protezirovaniye/214116561434/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">Стоматология и протезирование</a><a href="https://yandex.ru/maps/222/luhansk/category/dental_clinics/184106132/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:14px;">Стоматологическая клиника в Луганске</a><iframe src="https://yandex.ru/map-widget/v1/?ll=39.394052%2C48.574471&mode=poi&poi%5Bpoint%5D=39.392823%2C48.579964&poi%5Buri%5D=ymapsbm1%3A%2F%2Forg%3Foid%3D214116561434&tab=features&z=15.85" width="560" height="400" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe></div>
+            <div style="position: relative; overflow: hidden">
+              <a
+                href="https://yandex.ru/maps/org/stomatologiya_i_protezirovaniye/214116561434/?utm_medium=mapframe&utm_source=maps"
+                style="
+                  color: #eee;
+                  font-size: 12px;
+                  position: absolute;
+                  top: 0px;
+                "
+                >Стоматология и протезирование</a
+              ><a
+                href="https://yandex.ru/maps/222/luhansk/category/dental_clinics/184106132/?utm_medium=mapframe&utm_source=maps"
+                style="
+                  color: #eee;
+                  font-size: 12px;
+                  position: absolute;
+                  top: 14px;
+                "
+                >Стоматологическая клиника в Луганске</a
+              >
+              <div class="contacts__map">
+                <a
+                  target="_blank"
+                  href="https://yandex.ru/maps/-/CCUz48geSD"
+                  data-address="1"
+                >
+                  <img
+                    class="element-animation"
+                    src="src/img/contacts/map-icon.svg"
+                    alt="map"
+                  />
+                  <span class="element-animation">ул.Кулибина, 3Б</span>
+                </a>
+                <a
+                  target="_blank"
+                  href="https://yandex.ru/maps/-/CCUz48sjcC"
+                  data-address="2"
+                >
+                  <img
+                    class="element-animation"
+                    src="src/img/contacts/map-icon.svg"
+                    alt="map"
+                  />
+                  <span class="element-animation">кв. Солнечный, 26</span>
+                </a>
+                <img class="map-img" src="src/img/contacts/map.jpg" alt="map" />
+              </div>
+            </div>
           </div>
         </div>
       </section>
